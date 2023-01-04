@@ -1,0 +1,39 @@
+Integrantes:
+
+- Francisco Morales
+- Joaquín Contreras
+
+1. Exportar los archivos del proyecto a un IDE.
+
+2. Colocar las 4 clases java dentro del mismo package.
+
+3. Ejecutar el archivo testHashingDoble.java
+
+Métodos implementados para el Hashing Doble:
+
+- HashingDoble(int)	                        Constructor que define si la tabla hash si tiene de tamaño un número primo
+                                                y en el caso que no lo tenga lo modifica.
+
+- insert(movil) 	                              Inserta un objeto de la clase movil y se define su posición.
+
+- find(int) 		                        Encuentra un elemento en la tabla.
+
+- displayTable()	                              Imprime en consola.
+
+- Trayectoria(int)	                        Imprime la trayectoria del movil ingresado en tiempo O(l)
+
+- Distancia(int)                                Método que navega por la trayectoria del movil ingresado guardando sus
+                                                posiciones en tiempo O(l)
+                                                Termina imprimiendo la suma de todas sus posiciones
+
+- PosiblementeCercanos(movil, movil, int)       Método que permite verificar si ambos móviles posiblemente estuvieron cercanos.        
+
+- dist(coordenada,coordenada)                   Método privado para calcular la distancia entre dos puntos
+
+- esPrimo(int)   	                              Verifica si el tamaño del array es de un número primo.
+
+- getNextPrime(int) 	                        Si un array es de un tamaño no primo lo cambia al tamaño del número primo más cercano.
+
+- hashFunc1(int)	                              Calcula la posición ideal del elemento en la tabla.
+
+- hashFunc2(int)	                              Retorna el tamaño que tendrá el salto si llega a haber una colisión.
